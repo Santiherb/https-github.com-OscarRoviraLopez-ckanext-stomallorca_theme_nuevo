@@ -1,0 +1,93 @@
+# Spanish translations for ckanext-stomallorca_theme.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the
+# ckanext-stomallorca_theme project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-stomallorca_theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-03 19:42+0200\n"
+"PO-Revision-Date: 2022-09-03 19:43+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ckanext/stomallorca_theme/templates/footer.html:11
+msgid "Site map"
+msgstr "Mapa del sitio"
+
+#: ckanext/stomallorca_theme/templates/footer.html:14
+msgid "STO Mallorca"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:17
+msgid "Indicators"
+msgstr "Indicadores"
+
+#: ckanext/stomallorca_theme/templates/footer.html:20
+msgid "News"
+msgstr "Noticias"
+
+#: ckanext/stomallorca_theme/templates/footer.html:28
+msgid "Information"
+msgstr "Información"
+
+#: ckanext/stomallorca_theme/templates/footer.html:31
+msgid "Sustainable initiatives"
+msgstr "Iniciativas de sostenibilidad"
+
+#: ckanext/stomallorca_theme/templates/footer.html:34
+msgid "INSTO network"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:37
+msgid "Consell de Mallorca"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:40
+msgid "Need help?"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:48
+msgid "About the Observatory"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:71
+msgid "Contact"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:74
+msgid "Privacity"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:77
+msgid "Legal Notice"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:83
+msgid "Search..."
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:91
+msgid "Fundació Mallorca Turisme"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:96
+msgid "financed by the European Union"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:101
+msgid "Recovery plan"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/footer.html:109
+msgid "All rights reserved"
+msgstr ""
+
