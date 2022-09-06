@@ -1,0 +1,359 @@
+# Spanish translations for ckanext-stomallorca_theme.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the
+# ckanext-stomallorca_theme project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-stomallorca_theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-05 22:25+0200\n"
+"PO-Revision-Date: 2022-09-05 22:26+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ckanext/stomallorca_theme/templates/footer.html:11
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:12
+msgid "Site map"
+msgstr "Mapa del sitio"
+
+#: ckanext/stomallorca_theme/templates/footer.html:14
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:15
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:117
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:11
+msgid "STO Mallorca"
+msgstr "STO Mallorca"
+
+#: ckanext/stomallorca_theme/templates/footer.html:17
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:18
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:16
+msgid "Indicators"
+msgstr "Indicadores"
+
+#: ckanext/stomallorca_theme/templates/footer.html:20
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:21
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:35
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:38
+msgid "News"
+msgstr "Actualidad"
+
+#: ckanext/stomallorca_theme/templates/footer.html:28
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:29
+msgid "Information"
+msgstr "Información"
+
+#: ckanext/stomallorca_theme/templates/footer.html:31
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:32
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:32
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:37
+msgid "Sustainable initiatives"
+msgstr "Iniciativas sostenibles"
+
+#: ckanext/stomallorca_theme/templates/footer.html:34
+msgid "INSTO network"
+msgstr "Red INSTO"
+
+#: ckanext/stomallorca_theme/templates/footer.html:37
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:38
+msgid "Consell de Mallorca"
+msgstr "Consell de Mallorca"
+
+#: ckanext/stomallorca_theme/templates/footer.html:40
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:41
+msgid "Need help?"
+msgstr "¿Necesitas ayuda?"
+
+#: ckanext/stomallorca_theme/templates/footer.html:48
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:49
+msgid "About the Observatory"
+msgstr "Acerca del Observatorio"
+
+#: ckanext/stomallorca_theme/templates/footer.html:71
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:72
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:38
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:39
+msgid "Contact"
+msgstr "Contacto"
+
+#: ckanext/stomallorca_theme/templates/footer.html:74
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:75
+msgid "Privacity"
+msgstr "Privacidad"
+
+#: ckanext/stomallorca_theme/templates/footer.html:77
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:78
+msgid "Legal Notice"
+msgstr "Aviso Legal"
+
+#: ckanext/stomallorca_theme/templates/footer.html:83
+msgid "Search..."
+msgstr "Buscar..."
+
+#: ckanext/stomallorca_theme/templates/footer.html:91
+msgid "Fundació Mallorca Turisme"
+msgstr "Fundació Mallorca Turisme"
+
+#: ckanext/stomallorca_theme/templates/footer.html:96
+msgid "financed by the European Union"
+msgstr "financiado por la Unión Europea"
+
+#: ckanext/stomallorca_theme/templates/footer.html:101
+msgid "Recovery plan"
+msgstr "Plan de recuperación"
+
+#: ckanext/stomallorca_theme/templates/footer.html:109
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:117
+msgid "All rights reserved"
+msgstr "Todos los derechos reservados"
+
+#: ckanext/stomallorca_theme/templates/header_home.html:9
+msgid "Sysadmin settings"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:11
+msgid "Admin"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:16
+msgid "View profile"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:23
+#, python-format
+msgid "Dashboard (%(num)d new item)"
+msgid_plural "Dashboard (%(num)d new items)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:27
+msgid "Dashboard"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:33
+#: ckanext/stomallorca_theme/templates/header_home.html:35
+msgid "Profile settings"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:40
+#: ckanext/stomallorca_theme/templates/header_home.html:42
+msgid "Log out"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:49
+msgid "Account"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:52
+msgid "Log in"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/header_home.html:54
+msgid "Register"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:35
+msgid "INSTO Network"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:52
+msgid "Mallorca Tourism Foundation"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:86
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:14
+msgid "Search Datasets"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:87
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:15
+msgid "Search"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:87
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:15
+msgid "Search datasets"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/footer_template.html:88
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:16
+msgid "Submit"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/language_selector.html:3
+msgid "Language"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/nav_bar_2.html:3
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:7
+msgid "Datasets"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:14
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:22
+msgid "Data"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:17
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:25
+msgid "Open data"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:21
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:28
+msgid "Reports"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:24
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:30
+msgid "Partners"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:26
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:32
+msgid "Public entities"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:27
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:33
+msgid "Private entities"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/navegador.html:28
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:34
+msgid "University"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:2
+msgid "E.g. environment"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:5
+msgid "Welcome to STO Mallorca Open Data"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:7
+msgid "Now we have "
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/search.html:7
+msgid "to see them correctly, click on"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:3
+msgid "Dataset catalog"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:4
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:11
+msgid "Tools and Resources"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:10
+msgid "INSTO Category"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:19
+msgid "MALLORCA 2030 "
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:20
+msgid "Sustainable Development"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:28
+msgid "ETIS indicators"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:29
+msgid "European System"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:37
+msgid "Other sources"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:38
+msgid "Sources"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/read.html:5
+msgid "Contact Us"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/additional_info.html:6
+msgid "License"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/additional_info.html:15
+msgid "No License Provided"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/additional_info.html:20
+msgid "This dataset satisfies the Open Definition."
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/additional_info.html:27
+msgid "Data update frequency"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/additional_info.html:31
+msgid "Source"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/additional_info.html:35
+msgid "Category"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/additional_info.html:39
+msgid "Observations"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:16
+msgid "This resource view is not available at the moment."
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:18
+msgid "Click here for more information."
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:25
+msgid "Download resource"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:46
+msgid "Your browser does not support iframes."
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:55
+msgid "Embed resource view"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:60
+msgid ""
+"You can copy and paste the embed code into a CMS or blog software that "
+"supports raw HTML"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:63
+msgid "Width"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:66
+msgid "Height"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:69
+msgid "Code"
+msgstr ""
+
+#: ckanext/stomallorca_theme/templates/snippets/navegador.html:24
+msgid "Indicadores"
+msgstr ""
+
