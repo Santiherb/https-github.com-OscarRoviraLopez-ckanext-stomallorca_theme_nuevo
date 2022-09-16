@@ -84,10 +84,10 @@
                  </nav>
                </div>
                <div class="col-3  pt-4">
-                {% block header_site_search %}
+                {% block footer_site_search %}
                 <form class="container section site-search simple-input" action="{% url_for 'dataset.search' %}" method="get">
                    <div class="field">
-                   <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
+                   <label for="field-sitewide-search">{% block footer_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
                    <input id="field-sitewide-search" type="text" class="form-control" name="q" placeholder="{{ _('Search') }}" aria-label="{{ _('Search datasets') }}"/>
                    <button class="btn-search" type="submit" aria-label="{{ _('Submit') }}"></button>
                    </div>
@@ -100,17 +100,17 @@
                <div class="row row-cols-1 row-cols-md-3 g-4">
                   <div class="col text-center">
                      <div class="">
-                        <img class="w-75 pt-3 text-center" src="/base/images/fundacio.png" class="card-img-top" alt="Fundació Mallorca Turisme">
+                        <img class="w-75 pt-3 text-center" src="/base/images/fundacio.png" class="card-img-top" alt="{{ _('Mallorca Turisme Foundation') }}">
                      </div>
                   </div>
                   <div class="col">
                      <div class="">
-                        <img class="w-75" src="/base/images/financiado-por-la-union-europea.png" class="card-img-top" alt="financiado por la unión Europea">
+                        <img class="w-75" src="/base/images/financiado-por-la-union-europea.png" class="card-img-top" alt="{{ _('financed by the European Union') }}">
                      </div>
                   </div>
                   <div class="col">
                      <div class="">
-                        <img class="w-75" src="/base/images/plan-de-recuperacion.png" class="card-img-top" alt="Plan de recuperación">
+                        <img class="w-75" src="/base/images/plan-de-recuperacion.png" class="card-img-top" alt="{{ _('Recovery plan') }}">
                      </div>
                   </div>
                </div>
