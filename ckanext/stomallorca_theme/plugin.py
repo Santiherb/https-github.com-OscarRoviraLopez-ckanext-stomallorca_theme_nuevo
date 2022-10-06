@@ -24,9 +24,6 @@ class StomallorcaThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
         toolkit.add_template_directory(config_, "templates")
         toolkit.add_public_directory(config_, "public")
         toolkit.add_resource("assets", "stomallorca_theme")
-        config_['scheming.dataset_schemas'] = config_.get('scheming.dataset_schemas', "") + """
- ckanext.stomallorca_theme:schemas/dataset.yaml
- """
 
     # ITemplateHelpers
     def get_helpers(self):
