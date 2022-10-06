@@ -275,7 +275,7 @@ form.form-inline.form-select.lang-select {
 }
 
 select#field-lang-select {
-  height: 97px;
+  height: 35px;
   line-height: 36px;
   font-size: 13px;
   padding: 0 10px;

@@ -5,7 +5,7 @@
          <div class="container row text-center pt-5">
             <div class="col col-md-3">
                <div class="card btn shadow-sm" onclick="window.location.href='{{ h.url_for('group.read', id='indicadores-insto') }}'">
-                  <img src="/base/images/categorias-insto-od.png" class="card-img-top" alt="Indicadores INSTO">
+                  <img src="{{ h.url_for_static('/stomallorca/images/categorias-insto-od.png') }}" class="card-img-top" alt="Indicadores INSTO">
                   <div class="card-body">
                      <h5 class="card-title text-center"> {{ _("INSTO Category") }}</h5>
                      <p class="card-text text-center">{{ _("Tools and Resources") }}</p>
@@ -14,7 +14,7 @@
             </div>
             <div class="col col-md-3">
                <div class="card btn shadow-sm" onclick="window.location.href='{{ h.url_for('group.read', id='mallorca-2030') }}'">
-                  <img src="/base/images/mallorca-2030-od.png" class="card-img-top" alt="MALLORCA 2030">
+                  <img src="{{ h.url_for_static('/stomallorca/images/mallorca-2030-od.png') }}" class="card-img-top" alt="MALLORCA 2030">
                   <div class="card-body">
                      <h5 class="card-title text-center">{{ _("MALLORCA 2030 ") }}</h5>
                      <p class="card-text text-center">{{ _("Sustainable Development") }}</p>
@@ -23,7 +23,7 @@
             </div>
             <div class="col col-md-3">
                <div class="card btn shadow-sm" onclick="window.location.href='{{ h.url_for('group.read', id='indicadores-etis') }}'">
-                  <img src="/base/images/indicadores-etis-od.png" class="card-img-top" alt="Indicadores ETIS">
+                  <img src="{{ h.url_for_static('/stomallorca/images/indicadores-etis-od.png') }}" class="card-img-top" alt="Indicadores ETIS">
                   <div class="card-body">
                      <h5 class="card-title text-center"> {{ _("ETIS indicators") }}</h5>
                      <p class="card-text text-center">{{ _("European System") }}</p>
@@ -32,7 +32,7 @@
             </div>
             <div class="col col-md-3">
                <div class="card btn shadow-sm" onclick="window.location.href='{{ h.url_for('group.read', id='otras-fuentes') }}'">
-                  <img src="/base/images/otras-fuentes-od.png" class="card-img-top" alt="EGATUR Y FRONTUR">
+                  <img src="{{ h.url_for_static('/stomallorca/images/otras-fuentes-od.png') }}" class="card-img-top" alt="EGATUR Y FRONTUR">
                   <div class="card-body">
                      <h5 class="card-title text-center">{{ _("Other sources") }}</h5>
                      <p class="card-text text-center"> {{ _("Sources") }}</p>

@@ -1,10 +1,10 @@
 {% set tags = h.get_facet_items_dict('tags', c.search_facets, limit=3) %}
 {% set placeholder = _('E.g. environment') %}
-<div class="container-flex p-0" style="background-color: #00205b;">
+<div class="container-flex p-0" style="background-color: #5a8e22;">
 <div class="p-3">
    <h2 class="text-center p-3 text-white">{{ _('Welcome to STO Mallorca Open Data') }}</h2>
    <p class=" container text-center p-2 text-white">
-      {{ _('Now we have ') }}<b>{{ c.package_count }}</b>, {{ _('to see them correctly, click on') }} <a class="text-white" href="http://ckanserver-des.westeurope.cloudapp.azure.com/dataset/?">{{ _("Datasets") }}</a>
+      {{ _('Now we have ') }} <b>{{ c.package_count }}</b>, {{ _('to see them correctly, click on') }} <a class="text-white" href="http://ckanserver-des.westeurope.cloudapp.azure.com/dataset/?">{{ _("Datasets") }}</a>
    </p>
 </div>
 <div class="pb-5">
