@@ -3,7 +3,7 @@
     "about_url": "http://github.com/ckan/ckanext-scheming",
     "type": "organization",
     "organization_type": "organization",
-    "form_languages": ["en", "ca", "es"],
+    "form_languages": ["es", "ca", "en"],
     "fields": [
         {
           "field_name": "title_translated",
@@ -28,7 +28,7 @@
         },
         {
           "field_name": "image_url",
-          "validators": "ignore_missing unicode remove_whitespace",
+          "validators": "ignore_missing unicode_safe remove_whitespace",
           "form_snippet": "organization_upload.html"
         }
     ]
