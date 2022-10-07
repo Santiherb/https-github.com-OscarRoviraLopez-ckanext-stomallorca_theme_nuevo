@@ -11,7 +11,9 @@ body {
   margin: 0;
   font-family: 'Fira Sans';
 }
-
+h6 {
+  font-weight: 400;
+}
 .flDebugPanelContentParent {
   overflow-y: scroll;
 }
@@ -285,6 +287,22 @@ select#field-lang-select {
 button.btn.btn-default.js-hide {
   visibility: hidden;
 }
+ul#menusecundario  li a{
+  font-weight: 400;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+  .headerckan {
+    padding-left: 3%;
+    padding-right: 5%;
+  }
+  .footer-muted {
+    PADDING-LEFT: 3%;
+    padding-right: 1%;
+}
+
+}
 /*MOvIL*/
 @media screen and (max-width: 567px) {
   #headeruno-uno {
@@ -360,8 +378,18 @@ button.btn.btn-default.js-hide {
     margin-right: 10px;
   }
   .headerckan {
-    padding: 2%;
+    padding-left: 3%;
+    padding-right: 5%;
   }
+ 
+  ul#menusecundario  li a{
+    font-weight: 400;
+  }
+  .footer-muted {
+    PADDING-LEFT: 1%;
+    padding-right: 2%;
+}
+
 }
 
 /*Fin MoVil*/
@@ -377,7 +405,7 @@ button.btn.btn-default.js-hide {
 }
 
 #botonData:hover {
-  background-color:#00205B ;
+  background-color:#588222 ;
   color: #ffffff;
 }
 
@@ -527,7 +555,7 @@ span.automatic-local-datetime {
   padding: 10px;
 }
 .colorTextGren {
-  color: #00205b;
+  color: #588222;
   font-weight:bold;
 }
 .resource-upload-field .btn-remove-url {
@@ -546,7 +574,7 @@ span.automatic-local-datetime {
   box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 8%);
 }
 i.fa.fa-home {
-  color: #00205B;
+  color: #588222;
 }
 .tag {
   display: inline-block;
@@ -693,4 +721,10 @@ th {
   background-color: #FFF !important;
   border: none !important;
 
+}
+.backgroundGr {
+  background-color: #588222;
+}
+.tituloWeight {
+  font-weight: 400;
 }

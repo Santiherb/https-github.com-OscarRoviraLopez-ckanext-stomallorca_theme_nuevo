@@ -66,7 +66,7 @@
             <div class="container  mt-3 mb-3"  style="height: 1px; background-color: white;"> </div>
             <!--segundo NAV-->
             <div class="container row mx-auto">
-               <div class="col-9 d-flex justify-content-start">
+               <div class="col-sm-12 col-xl-9  d-flex justify-content-start">
                  <nav class="navbar">
                    <div class="container-fluid">
                      <ul class="navbar-nav pl-0" style="margin-top: 0px !important;" id="menusecundario" >
@@ -83,11 +83,11 @@
                    </div>
                  </nav>
                </div>
-               <div class="col-3  pt-4">
-                {% block footer_site_search %}
+               <div class=" col-sm-12 col-xl-3 pt-4">
+                {% block header_site_search %}
                 <form class="container section site-search simple-input" action="{% url_for 'dataset.search' %}" method="get">
                    <div class="field">
-                   <label for="field-sitewide-search">{% block footer_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
+                   <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
                    <input id="field-sitewide-search" type="text" class="form-control" name="q" placeholder="{{ _('Search') }}" aria-label="{{ _('Search datasets') }}"/>
                    <button class="btn-search" type="submit" aria-label="{{ _('Submit') }}"></button>
                    </div>
@@ -118,7 +118,7 @@
             <div class="container row mx-auto">
                <!-- Left -->
                <div class="col 6 pl-0 pt-2">
-                  <p class="text-white">© 2022 <strong>{{ _("STO Mallorca") }}</strong>| {{_("All rights reserved")}} |</p>
+                  <p class="text-white">© 2022 <strong>{{ _("STO Mallorca") }}</strong> | {{_("All rights reserved")}}</p>
                </div>
                <!-- Left -->
                <!-- Right -->
