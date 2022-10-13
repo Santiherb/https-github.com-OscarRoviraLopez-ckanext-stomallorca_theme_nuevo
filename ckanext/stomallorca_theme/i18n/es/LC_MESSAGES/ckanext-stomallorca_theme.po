@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ckanext-stomallorca_theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-09-15 12:30+0200\n"
-"PO-Revision-Date: 2022-09-16 09:12+0200\n"
+"PO-Revision-Date: 2022-10-13 12:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: es <LL@li.org>\n"
 "Language: es\n"
@@ -263,7 +263,7 @@ msgstr "Categoría INSTO"
 
 #: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:19
 msgid "MALLORCA 2030 "
-msgstr "MALLRCA 2030"
+msgstr "MALLORCA 2030"
 
 #: ckanext/stomallorca_theme/templates/home/snippets/stom_groups.html:20
 msgid "Sustainable Development"
@@ -335,7 +335,7 @@ msgstr "Esta vista de recursos no está disponible en este momento."
 
 #: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:18
 msgid "Click here for more information."
-msgstr "Haz clic aquí para más información"
+msgstr "Haz clic aquí para más información."
 
 #: ckanext/stomallorca_theme/templates/package/snippets/resource_view.html:25
 msgid "Download resource"
