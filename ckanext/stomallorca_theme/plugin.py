@@ -23,6 +23,7 @@ class StomallorcaThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.ITranslation)
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.ITemplateHelpers)
+    plugins.implements(plugins.IPackageController, inherit=True)
 
     # IConfigurer
 
@@ -40,4 +41,9 @@ class StomallorcaThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
             'extrafields_default_locale': default_locale,
             'stomallorca_portal_url': stomallorca_portal_url,
         }
+
+    # IPackageController
+    def before_dataset_search(self, search_params):
+        search_params['q'] = search_params.get('q', '').lower()
+        return search_params
 
