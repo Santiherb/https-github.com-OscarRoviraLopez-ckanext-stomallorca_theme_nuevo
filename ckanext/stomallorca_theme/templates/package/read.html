@@ -2,5 +2,5 @@
 
 {% block package_additional_info %}
   {{ super() }}
-  <a class="btn btn-primary" href="https://stomallorca.com/contacto/"><i class="fa fa-envelope"></i> {{ _("Contact Us") }}</a>
+  <a class="btn btn-primary" href="{{ h.stomallorca_portal_url() }}contacto/"><i class="fa fa-envelope"></i> {{ _("Contact Us") }}</a>
 {% endblock %}

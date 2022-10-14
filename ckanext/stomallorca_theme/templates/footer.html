@@ -12,13 +12,13 @@
                       {{ _("Site map") }}
                      </h6>
                      <p class="mb-0 border-white border-bottom ">
-                        <a href="https://stomallorca.com/sto-mallorca/" class="text-white">{{ _("STO Mallorca") }}</a>
+                        <a href="{{ h.stomallorca_portal_url() }}sto-mallorca/" class="text-white">{{ _("STO Mallorca") }}</a>
                      </p>
                      <p class="mb-0 border-white border-bottom">
-                        <a href="https://stomallorca.com/indicadores/" class="text-white">{{ _("Indicators") }}</a>
+                        <a href="{{ h.stomallorca_portal_url() }}indicadores/" class="text-white">{{ _("Indicators") }}</a>
                      </p>
                      <p class="mb-0">
-                        <a href="https://stomallorca.com/actualidad/" class="text-white">{{ _("News") }}</a>
+                        <a href="{{ h.stomallorca_portal_url() }}actualidad/" class="text-white">{{ _("News") }}</a>
                      </p>
                   </div>
                   <!-- Grid column -->
@@ -29,7 +29,7 @@
                         {{ _("Information") }}
                      </h6>
                      <p class="mb-0 border-white border-bottom" >
-                        <a href="https://stomallorca.com/indicativas-sostenibles/" class="text-white">{{ _("Sustainable initiatives") }}</a>
+                        <a href="{{ h.stomallorca_portal_url() }}indicativas-sostenibles/" class="text-white">{{ _("Sustainable initiatives") }}</a>
                      </p>
                      <p class="mb-0 border-white border-bottom">
                         <a href="https://www.unwto.org/" class="text-white">{{ _("INSTO Network") }}</a>
@@ -38,7 +38,7 @@
                         <a href="https://www.conselldemallorca.cat/es/" class="text-white">{{ _("Consell de Mallorca") }}</a>
                      </p>
                      <p class="mb-0">
-                        <a href="https://stomallorca.com/contacto/" class="text-white">{{ _("Need help?") }}</a>
+                        <a href="{{ h.stomallorca_portal_url() }}contacto/" class="text-white">{{ _("Need help?") }}</a>
                      </p>
                   </div>
                   <!-- Grid column -->
@@ -71,13 +71,13 @@
                    <div class="container-fluid">
                      <ul class="navbar-nav pl-0" style="margin-top: 0px !important;" id="menusecundario" >
                        <li class="nav-item" >
-                         <a class="nav-link text-white" href="https://stomallorca.com/sto-mallorca/">{{ _("Contact") }}</a>
+                         <a class="nav-link text-white" href="{{ h.stomallorca_portal_url() }}sto-mallorca/">{{ _("Contact") }}</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link text-white" href="https://stomallorca.com/indicadores/">{{ _("Privacity") }}</a>
+                         <a class="nav-link text-white" href="{{ h.stomallorca_portal_url() }}indicadores/">{{ _("Privacity") }}</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link text-white" href="https://stomallorca.com/actualidad/">{{ _("Legal Notice") }}</a>
+                         <a class="nav-link text-white" href="{{ h.stomallorca_portal_url() }}actualidad/">{{ _("Legal Notice") }}</a>
                        </li>
                      </ul>
                    </div>
