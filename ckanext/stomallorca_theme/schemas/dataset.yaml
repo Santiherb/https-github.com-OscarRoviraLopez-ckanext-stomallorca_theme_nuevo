@@ -17,7 +17,6 @@ dataset_fields:
   form_snippet: extrafields_fluent_title.html
 
 
-
 - field_name: name
   label: URL
   preset: dataset_slug
@@ -143,6 +142,18 @@ dataset_fields:
   form_placeholder: Joe Bloggs
   display_property: dc:creator
 
+- field_name: additional_notes
+  label: 
+   en: Observations/notes additionals
+   es: Observaciones/notas adicionales
+   ca: Observacions/notes addicionals
+  preset: fluent_text
+  form_snippet: fluent_markdown.html
+  form_placeholder: eg. Some useful notes about the data
+  classes:
+  - form-group
+  - col-md-12
+
 #- field_name: author_email
 #  label: Author Email
 #  form_placeholder: joe@example.com
@@ -150,10 +161,10 @@ dataset_fields:
 #  display_snippet: email.html
 #  display_email_name_field: author
 
-- field_name: maintainer
-  label: Maintainer
-  form_placeholder: Joe Bloggs
-  display_property: dc:contributor
+#- field_name: maintainer
+#  label: Maintainer
+#  form_placeholder: Joe Bloggs
+#  display_property: dc:contributor
 
 #- field_name: maintainer_email
 #  label: Maintainer Email
