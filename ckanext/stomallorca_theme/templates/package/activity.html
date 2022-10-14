@@ -4,6 +4,7 @@
   {% if h.check_access('package_update', { 'id':pkg.id }) %}
     {{ super() }}
   {% else %}
-    <img src="https://media.tenor.com/o656qFKDzeUAAAAC/rick-astley-never-gonna-give-you-up.gif" />
+    <h1>403</h1>
+    <p>Forbidden</p>
   {% endif %}
 {% endblock %}
