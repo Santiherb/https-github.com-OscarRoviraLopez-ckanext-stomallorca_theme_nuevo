@@ -2,6 +2,7 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 from ckan.lib.plugins import DefaultTranslation
 from ckan.common import config
+from ckan.model import Package
 import ckan.lib.helpers as h
 
 def default_locale():
@@ -18,6 +19,21 @@ def stomallorca_portal_url():
     if (h.lang() != 'es'):
       portal_url += h.lang() + '/'
     return portal_url
+
+def get_license(license_id):
+    '''Helper to return license based on id.
+    '''
+    return Package.get_license_register().get(license_id)
+
+def get_group(group_id):
+    '''Helper to return the group.
+    CKAN core has a get_organization helper but does not have one for groups.
+    This also allows us to access the group with all extras which are needed to 
+    access the scheming/fluent fields.
+    '''
+    group_dict = toolkit.get_action('group_show')(
+        data_dict={'id': group_id})
+    return group_dict
 
 class StomallorcaThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.ITranslation)
@@ -40,6 +56,8 @@ class StomallorcaThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
         return {
             'extrafields_default_locale': default_locale,
             'stomallorca_portal_url': stomallorca_portal_url,
+            'stomallorca_theme_get_license': get_license,
+            'stomallorca_theme_get_group': get_group,
         }
 
     # IPackageController
